@@ -90,6 +90,6 @@ Para a execución do seguinte código, é necesario ter instalado previamente o 
 
 - [Hugo Carreira Rial](https://www.github.com/hugocarreirarial06)
 
-<img src="https://www.rebiun.org/sites/default/files/2024-03/USC%20logo.svg_.png" alt="Imaxe non dispoñible" width="80">
+<img src="https://www.rebiun.org/sites/default/files/2024-03/USC%20logo.svg_.png" style="align=rigth;" alt="Imaxe non dispoñible" width="80">
 
 
