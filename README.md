@@ -30,8 +30,9 @@ realizar a inferencia de clase.
 **Palabras clave / keywords**: clasificación, multiespectral, transformadores híbridos,
 transformadores, xemelgos dixitais, tempo real
 
-## Demo
+## Gif
 
+![Imaxe non dispoñible](gif_msi.gif)
 
 
 
