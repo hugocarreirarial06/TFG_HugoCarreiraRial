@@ -35,6 +35,57 @@ transformadores, xemelgos dixitais, tempo real
 <img src="gif_msi.gif" alt="Imaxe non dispoñible" width="500" height="500">
 
 
+## Instalación do software 💻 
+
+Para a execución do seguinte código, é necesario ter instalado previamente o software que se indica a continuación: 
+
+- Anaconda en caso de que o usuario non teña permisos de administrador: 
+
+    `wget https :// repo. anaconda .com/ miniconda /Miniconda3 -latest -Linux-x86_64 .sh`
+
+    `bash Miniconda3-latest-*.sh`
+
+    `source ~/.bashrc   # o ~/.zshrc en entornos Mac`
+
+    `conda --version`
+
+- Creación do entorno conda, no cal estarán instaladas as dependencias:
+
+    `conda create -n guild-env python=3.10 -y `
+
+    `conda activate guild-env # actuvación do entorno guild-env, permanecendo activado na terminal `
+
+- Instalación das dependencias
+
+    `conda install pytorch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1 pytorch-cuda=12.4 -c pytorch -c nvidia`
+
+    `pip install numpy==2.0.2 scikit-learn==1.6.0 timm==1.0.15 einops==0.8.1`
+
+- No caso de non ter instalado CUDA, deberemos execitar o seguinte comando: 
+
+    `conda install -c nvidia cudatoolkit=12.4`
+
+- Instalación de Guild AI
+
+    `pip install guildai # instalación do software`
+
+    `guild check # verifica que a instalación se completou`
+
+- Configuración do entorno e descarga do proxecto ✅
+
+    `mkdir probasTFGHugoCarreira # creación dun directorio de exemplo`
+
+    `cd probasTFGHugoCarreira`
+
+    `git clone https://github.com/hugocarreirarial06/TFG_HugoCarreiraRial.git`
+
+    `ls -l # verificar que se descargaron os arquivos de xeito correcto`
+
+    `conda activate guild-env # activación de miniconda na terminal`
+
+    `conda deactivate guild-env`
+
+
 ## Autor
 
 - [Hugo Carreira Rial](https://www.github.com/hugocarreirarial06)
