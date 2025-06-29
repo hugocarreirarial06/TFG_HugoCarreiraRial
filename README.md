@@ -1,6 +1,6 @@
 
 # Traballo de Fin de Grao de Hugo Carreira Rial
-## Técnica de clasificación de imaxes deobservación terrestre baseada nun transformador híbrido
+## Técnica de clasificación de imaxes de observación terrestre baseada nun transformador híbrido
 
 
 Durante os últimos anos, a aprendizaxe automática e as redes neuronais de deep
