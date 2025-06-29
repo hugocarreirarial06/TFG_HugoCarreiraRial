@@ -32,8 +32,7 @@ transformadores, xemelgos dixitais, tempo real
 
 ## Gif
 
-![Imaxe non dispoñible](gif_msi.gif)
-
+<img src="gif_msi.gif" alt="Imaxe non dispoñible" width="200" height="100">
 
 
 ## Autor
