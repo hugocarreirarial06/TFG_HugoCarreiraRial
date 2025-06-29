@@ -1,5 +1,5 @@
 
-# Traballo de Fin de Grao de Hugo Carreira Rial
+# 📚 Traballo de Fin de Grao de Hugo Carreira Rial
 ## Técnica de clasificación de imaxes de observación terrestre baseada nun transformador híbrido
 
 
