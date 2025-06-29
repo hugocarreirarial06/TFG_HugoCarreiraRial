@@ -1,0 +1,104 @@
+modelo4_tfg.py:
+  description: Execución de probas do modelo para o Traballo de Fin de Grao
+  main: modelo4_tfg
+  flags-import: all
+  flags-dest: args
+
+  output-scalars:
+    - OA_mean: "OA=(\\value)\\+[0-9]+\\.[0-9]+"
+    - OA_std: "OA=[0-9]+\\.[0-9]+\\+(\\value)"
+    - AA_mean: "AA=(\\value)\\+[0-9]+\\.[0-9]+"
+    - AA_std: "AA=[0-9]+\\.[0-9]+\\+(\\value)"
+    - Kappa: "Kappa: (\\value)"
+    - TPE: "TPEm\\) *: *(\\value)"
+
+  requires:
+    - file: modelos/
+    - file: fastvit_modificado.py
+
+  sourcecode:
+    - modelo4_tfg.py
+
+modelo4_swin.py:
+  description: Execución de probas do modelo para o Traballo de Fin de Grao
+  main: modelo4_swin
+  flags-import: all
+  flags-dest: args
+
+  output-scalars:
+    - OA_mean: "OA=(\\value)\\+[0-9]+\\.[0-9]+"
+    - OA_std: "OA=[0-9]+\\.[0-9]+\\+(\\value)"
+    - AA_mean: "AA=(\\value)\\+[0-9]+\\.[0-9]+"
+    - AA_std: "AA=[0-9]+\\.[0-9]+\\+(\\value)"
+    - Kappa: "Kappa: (\\value)"
+    - TPE: "TPEm\\) *: *(\\value)"
+
+  requires:
+    - file: modelos/
+    - file: models/
+    - file: fastvit_modificado.py
+
+  sourcecode:
+    - modelo4_swin.py
+
+modelo5_v2.py:
+  description: Execución de probas do modelo para o Traballo de Fin de Grao
+  main: modelo5_v2
+  flags-import: all
+  flags-dest: args
+
+  output-scalars:
+    - OA_mean: "OA=(\\value)\\+[0-9]+\\.[0-9]+"
+    - OA_std: "OA=[0-9]+\\.[0-9]+\\+(\\value)"
+    - AA_mean: "AA=(\\value)\\+[0-9]+\\.[0-9]+"
+    - AA_std: "AA=[0-9]+\\.[0-9]+\\+(\\value)"
+    - Kappa: "Kappa: (\\value)"
+    - TPE: "TPEm\\) *: *(\\value)"
+
+  requires:
+    - file: modelos/
+    - file: models/
+    - file: fastvit_modificado.py
+
+  sourcecode:
+    - modelo5_v2.py
+
+modelo4_copia.py:
+  description: Execución de probas do modelo para o Traballo de Fin de Grao
+  main: modelo4_copia
+  flags-import: all
+  flags-dest: args
+
+  output-scalars:
+    - OA_mean: "OA=(\\value)\\+[0-9]+\\.[0-9]+"
+    - OA_std: "OA=[0-9]+\\.[0-9]+\\+(\\value)"
+    - AA_mean: "AA=(\\value)\\+[0-9]+\\.[0-9]+"
+    - AA_std: "AA=[0-9]+\\.[0-9]+\\+(\\value)"
+    - Kappa: "Kappa: (\\value)"
+    - TPE: "TPEm\\) *: *(\\value)"
+
+  requires:
+    - file: modelos/
+    - file: models/
+    - file: fastvit_modificado.py
+
+  sourcecode:
+    - modelo4_copia.py
+
+contarParametros.py:
+  description: Execución de probas do modelo para o Traballo de Fin de Grao
+  main: modelo4_tfg_num_parametros
+  flags-import: all
+  flags-dest: args
+
+  output-scalars:
+    - TP: "Total de parámetros: (\\value)"
+    - PE: "Parámetros entrenables: (\\value)"
+
+  requires:
+    - file: modelos/
+    - file: models/
+    - file: fastvit_modificado.py
+
+  sourcecode:
+    - contarParametros.py
